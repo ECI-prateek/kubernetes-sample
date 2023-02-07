@@ -8,8 +8,6 @@ ADD . /app/
 RUN pip install -r requirements.txt
 
 ENV DATABASE_URI="localhost"
-ENV DATABASE_URI="postgres"
-ENV DATABASE_URI="postgres"
 
 ENV FLASK_APP=main.py
 
